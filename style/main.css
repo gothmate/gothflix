@@ -1,6 +1,6 @@
 :root{
-    --vermelho: #e50914;
-    --preta: #141414;
+    --orange: #c79728;
+    --azul: #23243d;
 }
 
 * {
@@ -13,7 +13,7 @@
 /* Base */
 
 body {
-    background: var(--preta);
+    background: var(--azul);
     font-family: sans-serif;
     color: white;
 }
@@ -27,7 +27,7 @@ header .container {
 
 header .logo {
     margin-left: 5px;
-    color: var(--vermelho);
+    color: var(--orange);
     font-family: 'Arial Black';
     font-size: 40px;
 }
@@ -103,4 +103,10 @@ header nav a:hover{
 
 .corrousel-filmes {
     margin-top: 5px;
+}
+
+#2b2b2b.chamada{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
 }
